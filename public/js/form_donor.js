@@ -1,6 +1,8 @@
 // function to create donor
 
-
+function addDonor(h){
+  firebase.database().ref('donor/' + h.id).set(h);
+}
 
   $(function(){
 
