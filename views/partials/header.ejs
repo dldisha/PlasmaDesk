@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Plasma Desk
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link id="theme" rel="stylesheet" type="text/css" href="/css/light-theme.css" />
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!--<script src="https://use.fontawesome.com/415ebe0a3a.js"></script>-->
+    <link rel="shortcut icon" href="favi.png">
+    <script>
+        //some default pre init
+        var PB = PB || {};PB.q = PB.q || [];PB.events = PB.events || [];
+        
+        //PushBots ApplicationId (required)
+        PB.app_id = "5f1c5c440bcfb547ed2966f5";
+        //Your domain name, must be HTTPS or localhost  (required)
+        PB.domain = "";
+        //Update and uncomment it if you are using custom safari certificate for your app
+        PB.safari_push_id = "web.com.pushbots.safaripush";
+        //****************************************
+        
+        PB.logging_enabled = true;
+        PB.auto_subscribe = true;
+        
+        //Custom worker and manifest URL
+        PB.worker_url = PB.domain + "/pushbots-worker.js";
+        
+        //Welcome notification message
+        PB.welcome = {title:"Welcome ",message:"Thanks for subscribing!", url :PB.domain};
+            
+        </script>
+        
+        <script src="//cdn.pushbots.com/js/sdk.min.js" type="text/javascript" onload="PB.init()" async></script>
+</head>
+<body>
+    <div class="ui pointing inverted menu stackable">
+     <div class="container">
+        <a id="home" href="/" class="home-icon item"><i class="home icon"></i></i><h3>Home</h3></a>
+        <a id="plasma-bank" href="plasma_bank" class="item"><h3>Plasma Bank</h3></a>
+        <a id="common-pool" href="common_pool" class="item"><h3>Plasma Form</h3></a>
+        <a id="amenities" href="amenities" class="item"><h3>Track Amenities</h3></a>
+        <a id="technology" href="technology" class="item right floated"><i class="large wrench icon"></i></a>
+       
+        <a class="item" id="theme-toggle"><i class="fa fa-adjust fa-lg"></i>
+        </a>
+    </div>
+        <div class="hamburger">
+            <span class="hamburger-bun"></span>
+            <span class="hamburger-patty"></span>
+            <span class="hamburger-bun"></span>
+        </div>
+    </div>

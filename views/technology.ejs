@@ -1,0 +1,162 @@
+<%- include("./partials/header") %>
+
+    <div class="ui center aligned container">
+        <br>
+    <h1 class="ui huge header" style="font-family: 'Source Code Pro', monospace;" >Build With</h1>
+    <div class="meta">
+        <h2 class="ui header" style = "font-family:'Montserrat', sans-serif; color: #2A943F "><i>while(no success)<br>{ &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;<br>&emsp; &emsp;tryAgain( );<br><br>if(dead)<br>&emsp; &emsp; &emsp;break;<br>}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</i></h2>
+    </div>
+    <br><br>
+    <div class="ui raised fluid stackable three centered cards">
+        <div class="card">
+          <div class="content">
+            <img class="tiny ui image" src="data:image/png;base64,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">
+            <div class="header">
+              <br><h2>HTML</h2>
+            </div>
+            <div class="meta">
+              <h5>Hypertext Markup Language</h5>
+            </div>
+            <div class="description">
+                <h5>HTML is the standard markup language for documents designed to be displayed in a web browser.</h5>
+            </div>
+          </div>
+          <div class="extra content">
+            <a href="https://en.wikipedia.org/wiki/HTML"><div class="ui basic green button center aligned">More Info</div></a>
+            <a class="right floated"><i class="large green check circle icon "></i></a>
+          </div>
+        </div>
+        <div class="card">
+            <div class="content">
+              <img class="tiny ui image" src="data:image/png;base64,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">
+              <div class="header">
+                <br><h2></h2>CSS</h2>
+              </div>
+              <div class="meta">
+                <h5>Cascading Style Sheets</h5>
+              </div>
+              <div class="description">
+                <h5>CSS is a style sheet language used for describing the presentation of a document written in a markup language like HTML.</h5>
+              </div>
+            </div>
+            <div class="extra content">
+              <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets"><div class="ui basic green button center aligned">More Info</div></a>
+              <a class="right floated"><i class="large green check circle icon "></i></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <img class="tiny ui image" src="https://www.kindpng.com/picc/m/67-678384_transparent-javascript-icon-png-png-download.png">
+              <div class="header">
+                <br><h2>JS</h2>
+              </div>
+              <div class="meta">
+                <h5>Javascipt</h5>
+              </div>
+              <div class="description">
+              <h5>JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.</h5>
+              </div>
+            </div>
+            <div class="extra content">
+              <a href="https://en.wikipedia.org/wiki/JavaScript"><div class="ui basic green button center aligned">More Info</div></a>
+              <a class="right floated"><i class="large green check circle icon "></i></a>
+            </div>
+          </div>
+          <!-- ==================================== -->
+          <div class="card">
+            <div class="content">
+              <img class="small circular ui image" src="data:image/png;base64,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">
+              <div class="header">
+                <h2>NodeJS</h2>
+              </div>
+              <div class="meta">
+                <br>
+              </div>
+              <div class="description">
+              <h5>As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications.</h5>
+              </div>
+            </div>
+            <div class="extra content">
+              <a href="https://nodejs.org/en/about/"><div class="ui basic green button center aligned">More Info</div></a>
+              <a class="right floated"><i class="large green check circle icon "></i></a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <img class="small circular ui image" src="https://www.gstatic.com/devrel-devsite/prod/v2e3f09d6e6536badfdb5bf4153d08404c10f0bdcdc9056b4896a90327dc2c4ff/firebase/images/touchicon-180.png">
+              <div class="header">
+                <h2>Firebase</h2>
+              </div>
+              <div class="meta">
+                <br>
+              </div>
+              <div class="description">
+              <h5>Firebase is Google’s mobile application development platform that helps you build, improve, and grow your app.</h5>
+              </div>
+            </div>
+            <div class="extra content">
+              <a href="https://firebase.google.com/"><div class="ui basic green button center aligned">More Info</div></a>
+              <a class="right floated"><i class="large green check circle icon "></i></a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="content">
+              <img class="small circular ui image" src="https://miro.medium.com/max/4400/1*NeKYs9ypQ7jkalNxEX3t9Q.png">
+              <div class="header">
+                <br><h2>jQuery</h2>
+              </div>
+              <div class="meta">
+                <br>
+              </div>
+              <div class="description">
+              <h5>jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax.</h5>
+              </div>
+            </div>
+            <div class="extra content">
+              <a href="https://jquery.com/"><div class="ui basic green button center aligned">More Info</div></a>
+              <a class="right floated"><i class="large green check circle icon "></i></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="content">
+              <img class="small circular ui image" src="https://cdn.dribbble.com/users/18900/screenshots/2805615/sg_logo.jpg">
+              <div class="header">
+                <h2>SendGrid</h2>
+              </div>
+              <div class="meta">
+                <br>
+              </div>
+              <div class="description">
+              <h5>SendGrid is a Denver, Colorado-based customer communication platform for transactional and marketing email.</h5>
+              </div>
+            </div>
+            <div class="extra content">
+              <a href="https://sendgrid.com/"><div class="ui basic green button center aligned">More Info</div></a>
+              <a class="right floated"><i class="large green check circle icon "></i></a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="content">
+              <img class="tiny ui image" src="data:image/png;base64,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">
+              <div class="header">
+                <br><h2>Heroku</h2>
+              </div>
+              <div class="meta">
+                <br>
+              </div>
+              <div class="description">
+              <h5>Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.</h5>
+              </div>
+            </div>
+            <div class="extra content">
+              <a href="https://www.heroku.com/"><div class="ui basic green button center aligned">More Info</div></a>
+              <a class="right floated"><i class="large green check circle icon "></i></a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <script> document.getElementById("technology").classList.add("active"); </script>
+<%- include("./partials/footer") %>
